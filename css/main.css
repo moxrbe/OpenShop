@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6, p {
     text-align: center;
     display: block;
     color: #fff !important;
-    border: 1px #fff solid;
+    border: 1px var(--text) solid;
     background: var(--btn);
     max-width: 190px;
     width: 100%;
@@ -52,6 +52,9 @@ h1,h2,h3,h4,h5,h6, p {
     background: #fff;
     color: #313131 !important;
 }
+
+
+
 
 
 .title{
@@ -77,8 +80,15 @@ h1,h2,h3,h4,h5,h6, p {
 
 .nav__link{
     /* margin-right: 60px; */
-    color: var(--link);
-    font-size: 14px;
+    color: var(--link) !important;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: capitalize;
+}
+
+.nav__link-2{
+    color: var(--text) !important;
+    font-size: 18px;
     line-height: 19px;
     text-transform: capitalize;
 }
@@ -101,6 +111,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 }
 
+
 .dropdown-menu{
     border-top: 2px white solid;
 }
@@ -115,7 +126,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .fal{
-    color: #fff;
+    color: var(--text);
 }
 
 
@@ -290,14 +301,14 @@ h1,h2,h3,h4,h5,h6, p {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
-    background: #ababab !important;
+    background: var(--dots) !important;
     border: none !important;
     opacity: 1 !important;
 }
 
 
-.header__indicators-dots.active{
-    background: #fff !important;
+.header__indicators-dots.active {
+    background: var(--dots-active) !important;
 }
 
 /* carousel end */
@@ -424,6 +435,7 @@ h1,h2,h3,h4,h5,h6, p {
     top: 10px;
     opacity: 0;
     transition: .5s;
+    color: var(--text);
 }
 
 
@@ -493,8 +505,157 @@ h1,h2,h3,h4,h5,h6, p {
 /* top sell end */
 
 
+/* xbox start */
+
+.xbox__txt{
+    color: var(--text);
+    font-size: 24px;
+    max-width: 454px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.xbox__btn{
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+}
+
+.xbox__btn:hover{
+    background: var(--body);
+    color: #fff !important;
+}
+
+.xbox{
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.xbox__title{
+    font-size: 48px;
+    color: var(--text);
+    line-height: 60px;
+}
+
+
+/* xbox end */
 
 
 
 /* main end */
+
+
+
+
+
+/* footer start */
+
+.footer{
+    background: #0C0C0C;
+}
+
+.footer__container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+.footer__item{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: var(--link);
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+.footer__link:hover{
+    color: var(--text);
+}
+
+
+.footer__input{
+    width: 330px;
+    max-width: 100%;
+    border-radius: 0;
+    background: var(--text);
+    color: var(--text);
+    padding: 12px ;
+}
+
+
+.footer__btn{
+    border-radius: 0;
+    color: var(--text);
+    width: 190px;
+    max-width: 100%;
+    background: var(--body);
+    padding: 12px 0;
+}
+
+.footer__btn:hover{
+    color: var(--link);
+}
+
+.footer__icon{
+    color: var(--link);
+}
+
+/* footer end */
+
+
+
+/* vr start */
+.vr{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.vr__title{
+    color: var(--text);
+    font-size: 48px;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+
+.vr__txt{
+    color: var(--text);
+    font-size: 24px;
+    max-width: 454px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+/* vr end */
+
+
+
+/* iphone start */
+
+.iphone{
+    margin-top: 70px;
+}
+
+.iphone__about{
+    margin-top: 5px;
+}
+.iphone__title{
+    margin-bottom: 40px;
+    font-size: 30px;
+    letter-spacing: 5%;
+}
+
+.iphone__txt{
+    margin-bottom: 10px;
+}
+
+.iphone__price{
+    margin-bottom: 20px;
+}
+
+/* iphone end */
 

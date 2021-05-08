@@ -7,6 +7,9 @@
         --dots: #ababab;
         --dots-active: #fff;
         --btn: #313131;
+        --dots:#ababab;
+        --dots-active: #fff;
+        --link:#fff;
     }
     
    
@@ -22,7 +25,25 @@
 /* @media (max-width: 1440px) {} */
 /* @media (max-width: 1366px) {} */
 /* @media (max-width: 1320px) {} */
-/* @media (max-width: 1290px) {} */
+@media (max-width: 1290px) {
+    .xbox__btn{
+        position: static;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .ps__card{
+        align-items: center;
+    }
+    .ps__banner{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+
+
+    
+}
 /* @media (max-width: 1140px) {} */
 @media (max-width: 1024px) {
     .start__lg{
@@ -40,8 +61,16 @@
     .start__sm{
         grid-column: 2 span;
     }
+    .input__form{
+        margin: 20px 0;
+        width: 80%;
+    }
 }
-/* @media (max-width: 992px) {} */
+@media (max-width: 992px) {
+    .ps__banner{
+        width: 100%;
+    }
+}
 /* @media (max-width: 768px) {} */
 /* @media (max-width: 736px) {} */
 /* @media (max-width: 734px) {} */
@@ -59,11 +88,20 @@
     .start__banner{
         width: 30% !important;
     }
+    
 }
 /* @media (max-width: 576px) {} */
 @media (max-width: 414px) {
     .start__banner-2{
         width: 90% !important;
+    }
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__input{
+        width: 200px;
     }
 }
 /* @media (max-width: 412px) {} */
