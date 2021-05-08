@@ -303,9 +303,91 @@ h1,h2,h3,h4,h5,h6, p {
 /* carousel end */
 
 
+/* start start */
+.start{
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
 
+
+.start__title{
+    font-size: 18px;
+    letter-spacing: 5%;
+    color: var(--title);
+}
+
+.start__txt{
+    color: var(--title);
+
+}
+
+.start__content-1{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.start__content-2{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+.start__content-3{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.start__content-4{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+
+
+.start__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.start__item {
+    min-height: 235px;
+    background: #fff;
+    filter: drop-shadow(-10px 5px 4px rgba(0, 0, 0, 0.25));
+    position: relative;
+}
+
+.start__banner {
+    position: absolute;
+}
+.start__banner-2{
+    position: absolute;
+    right: 0;
+    width: 80%;
+}
+.start__banner-3{
+    position: absolute;
+    bottom: -4px;
+}
+
+.start__lg {
+    grid-row: 2 span;
+    grid-column: 2 span;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__md {
+    grid-column: 2 span;
+}
+
+/* start end */
 
 /* cellPhone start */
+
+
 
 .cellphone__title{
     font-size: 16px;
@@ -399,7 +481,14 @@ h1,h2,h3,h4,h5,h6, p {
     margin-top: 150px;
     margin-bottom: 100px;
 }
+.samsung{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
 
+.xiaomi{
+    margin-bottom: 149px;
+}
 
 /* top sell end */
 
