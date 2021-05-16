@@ -588,15 +588,21 @@ h1,h2,h3,h4,h5,h6, p {
     color: var(--text) !important;
 }
 
+
+
 .xbox{
     position: relative;
-    margin-bottom: 150px;
 }
 
 .xbox__title{
     font-size: 48px;
     color: var(--text);
     line-height: 60px;
+}
+
+.xbox__span{
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 .xbox__banner{
@@ -611,6 +617,74 @@ h1,h2,h3,h4,h5,h6, p {
     bottom: 0;
     z-index: -11;
     left: 0;
+}
+
+.span__1{
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text);
+}
+.span__2{
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text);
+}
+.span__3{
+    position: relative;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text);
+}
+
+.span__1::after{
+    content: '';
+    background: var(--text);
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+.span__2::after{
+    content: '';
+    background: var(--text);
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+.span__3::after{
+    content: '';
+    background: var(--text);
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+
+.span__4{
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+
+.span__1, .span__2, .span__3, .span__4, .span__icon:hover{
+    color: var(--text) !important;
+}
+
+
+.span__icon{
+    color: var(--text);
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 10px;
 }
 
 
