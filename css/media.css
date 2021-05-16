@@ -1,4 +1,4 @@
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     
     
     :root {
@@ -144,7 +144,7 @@
     }
 
     .nav__input{
-        width: 250px;
+        width: 280px;
     }
     .nav__btn{
         font-size: 12px;
@@ -177,7 +177,7 @@
 
 
     .nav__input{
-        width: 180px;
+        width: 230px;
     }
     .nav__btn{
         width: 100px;
