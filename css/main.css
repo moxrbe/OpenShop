@@ -1,7 +1,7 @@
 @import'fonts.css';
 
 :root {
-    --body: #fff;;
+    --body: #fff;
     --text: #313131;
     --link: #fff;
     --title: #313131;
@@ -9,6 +9,8 @@
     --dots-active: #313131;
     --dots: #ababab;
     --font-primary: 'NotoSans';
+    --footer-body: #313131;
+    --icon: #313131;
 }
 
 
@@ -126,7 +128,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .fal{
-    color: var(--text);
+    color: #fff;
 }
 
 
@@ -388,10 +390,65 @@ h1,h2,h3,h4,h5,h6, p {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+
+.start__lg::before{
+    position: absolute;
+    content: '-57%';
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    color: #fff;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.start__md::before{
+    position: absolute;
+    content: '-30%';
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    color: #fff;
+    top: 25px;
+    left: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.start__sm::before{
+    position: absolute;
+    content: '-10%';
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    color: #fff;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .start__md {
     grid-column: 2 span;
+    position: relative;
 }
 
 /* start end */
@@ -476,6 +533,11 @@ h1,h2,h3,h4,h5,h6, p {
 .ps__icon{
     max-width: 270px;
     width: 100%;
+    
+}
+
+.ps__icon::before{
+    content: url(../img/ps5/ps_icon\ light.png);
 }
 
 .ps__title{
@@ -523,7 +585,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 .xbox__btn:hover{
     background: var(--body);
-    color: #fff !important;
+    color: var(--text) !important;
 }
 
 .xbox{
@@ -535,6 +597,20 @@ h1,h2,h3,h4,h5,h6, p {
     font-size: 48px;
     color: var(--text);
     line-height: 60px;
+}
+
+.xbox__banner{
+    position: relative;
+    width: 77% !important;
+    margin: 0 auto;
+    display: block;
+}
+
+.xbox__body{
+    position: absolute;
+    bottom: 0;
+    z-index: -11;
+    left: 0;
 }
 
 
@@ -551,7 +627,7 @@ h1,h2,h3,h4,h5,h6, p {
 /* footer start */
 
 .footer{
-    background: #0C0C0C;
+    background: var(--footer-body);
 }
 
 .footer__container{
@@ -574,7 +650,7 @@ h1,h2,h3,h4,h5,h6, p {
 
 
 .footer__link:hover{
-    color: var(--text);
+    color: var(--link);
 }
 
 
@@ -582,19 +658,36 @@ h1,h2,h3,h4,h5,h6, p {
     width: 330px;
     max-width: 100%;
     border-radius: 0;
-    background: var(--text);
+    background:  #fff;
     color: var(--text);
     padding: 12px ;
 }
 
+.input__form::before{
+    content: 'Subscribe to Newslatter';
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: -30px;
+    color: #fff;
+}
+
+.input__form{
+    position: relative;
+}
+
+
+
 
 .footer__btn{
     border-radius: 0;
-    color: var(--text);
+    color: #fff;
     width: 190px;
     max-width: 100%;
-    background: var(--body);
+    background: #313131;
     padding: 12px 0;
+    border: 1px solid
+     var(--body) !important; 
 }
 
 .footer__btn:hover{
@@ -633,6 +726,48 @@ h1,h2,h3,h4,h5,h6, p {
 /* vr end */
 
 
+/* new iphone */
+
+.Iphone{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.iphone__card-1{
+    position: relative;
+}
+
+.iphone__card-1.active::before {
+    content: url(../img/Iphone/iphone-1_100%\ \(2\).png);
+    position: absolute;
+}
+
+.iphone__card-2{
+    position: relative;
+}
+
+.iphone__card-2.active::before {
+    content: url(../img/Iphone/iphone_100%.png);
+    position: absolute;
+}
+
+.iphone__card-3{
+    position: relative;
+}
+
+.iphone__card-3.active::before {
+    content: url(../img/Iphone/iphone-3_100%.png);
+    position: absolute;
+}
+
+.shop__icon{
+
+    color: var(--icon) !important;
+
+}
+
+/* new iphone 2 */
+
 
 /* iphone start */
 
@@ -656,6 +791,8 @@ h1,h2,h3,h4,h5,h6, p {
 .iphone__price{
     margin-bottom: 20px;
 }
+
+
 
 /* iphone end */
 

@@ -104,39 +104,97 @@
 
 
       <main class="main">
-          <section class="iphone">
-              <div class="container">
-                  <div class="row">
-                       <div class="col-xl-1 col-md-11">
-                      <img src="img/Iphone/Rectangle 13.png" alt="" class="w-100">
-                      <img src="img/Iphone/Rectangle 11.png" alt="" class="mt-5 w-100">
-                      <img src="img/Iphone/Rectangle 12.png" alt="" class="mt-5 w-100">
-                        </div>
-                  <div class="col-xl-4 col-md-3">
-                      <img src="img/Iphone/Rectangle 10.png" alt="" class="w-100">
+          <section class="Iphone">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-1 col-md-12 iphone__catalog">
+                  <div class="list-group" id="list-tab" role="tablist">
+                    <a class="mb-5 mt-5 iphone__card-1 active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home"><img src="img/Iphone/Rectangle 13.png" alt=""></a>
+                    <a class="mb-5 iphone__card-2" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile"><img src="img/Iphone dark/iPhone1.png" alt=""></a>
+                    <a class="mb-5 iphone__card-3" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages"><img src="img/Iphone dark/iPhone2.png" alt=""></a>
                   </div>
-                  <div class="col-xl-7 col-md-7">
-                      <h2 class="iphone__title">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
-                      <p class="iphone__price">1300$</p>
-                      <p class="iphone__txt">Product Highlights</p>
-                      <p class="iphone__about">•128 GB ROM</p>
-                      <p class="iphone__about">•13.72 cm (5.4 inch) Super Retina XDR Display</p>
-                      <p class="iphone__about">•12MP + 12MP | 12MP Front Camera</p>
-                      <p class="iphone__about">•A14 Bionic Chip with Next Generation Neural Engine Processor</p>
-                      <p class="iphone__about">•Ceramic Shield</p>
-                      <p class="iphone__about">•IP68 Water Resistance</p>
-                      <p class="iphone__about">•All Screen OLED Display</p>
-                      <p class="iphone__about">•The shipment for this product will begin from 14th November 2020</p>
-                      <div class="row mt-5">
-                          <button class="btn all-btn me-5 ms-3"><a href="#!" class="fal"><i class="fal fa-shopping-cart"></i></a>
-                            cart</button>
-                          <button class="btn all-btn">buy now</button>
+                </div>
+                <div class="col-xl-11">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                      <div class="row">
+                        <div class="col-xl-5 col-md-6">
+                          <img src="img/Iphone/Rectangle 10.png" alt="" class="w-100">
                       </div>
+                      <div class="col-xl-7 col-md-6">
+                          <h2 class="iphone__title">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+                          <p class="iphone__price">1300$</p>
+                          <p class="iphone__txt">Product Highlights</p>
+                          <p class="iphone__about">•128 GB ROM</p>
+                          <p class="iphone__about">•13.72 cm (5.4 inch) Super Retina XDR Display</p>
+                          <p class="iphone__about">•12MP + 12MP | 12MP Front Camera</p>
+                          <p class="iphone__about">•A14 Bionic Chip with Next Generation Neural Engine Processor</p>
+                          <p class="iphone__about">•Ceramic Shield</p>
+                          <p class="iphone__about">•IP68 Water Resistance</p>
+                          <p class="iphone__about">•All Screen OLED Display</p>
+                          <p class="iphone__about">•The shipment for this product will begin from 14th November 2020</p>
+                          <div class="row mt-5 catalog__btns">
+                              <button class="btn all-btn me-5 ms-3 catalog__btn shadow-none"><a href="#!"><i class="fal fa-shopping-cart shop__icon"></i></a>
+                                cart</button>
+                              <button class="btn all-btn shadow-none">buy now</button>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><div class="row">
+                      <div class="col-xl-5 col-md-6 d-flex flex-column justify-content-center">
+                        <img src="img/VR/VR.png" alt="" class="w-100">
+                    </div>
+                    <div class="col-xl-7 col-md-6">
+                        <h2 class="iphone__title">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+                        <p class="iphone__price">1300$</p>
+                        <p class="iphone__txt">Product Highlights</p>
+                        <p class="iphone__about">•128 GB ROM</p>
+                        <p class="iphone__about">•13.72 cm (5.4 inch) Super Retina XDR Display</p>
+                        <p class="iphone__about">•12MP + 12MP | 12MP Front Camera</p>
+                        <p class="iphone__about">•A14 Bionic Chip with Next Generation Neural Engine Processor</p>
+                        <p class="iphone__about">•Ceramic Shield</p>
+                        <p class="iphone__about">•IP68 Water Resistance</p>
+                        <p class="iphone__about">•All Screen OLED Display</p>
+                        <p class="iphone__about">•The shipment for this product will begin from 14th November 2020</p>
+                        <div class="row mt-5 catalog__btns">
+                            <button class="btn all-btn me-5 ms-3 catalog__btn shadow-none"><a href="#!" class="fal"><i class="fal fa-shopping-cart"></i></a>
+                              cart</button>
+                            <button class="btn all-btn shadow-none">buy now</button>
+                        </div>
+                    </div>
+                    </div></div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><div class="row">
+                      <div class="col-xl-5 col-md-6 d-flex flex-column justify-content-center">
+                        <img src="img/Watch/Watch.png" alt="" class="w-100">
+                    </div>
+                    <div class="col-xl-7 col-md-6">
+                        <h2 class="iphone__title">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+                        <p class="iphone__price">1300$</p>
+                        <p class="iphone__txt">Product Highlights</p>
+                        <p class="iphone__about">•128 GB ROM</p>
+                        <p class="iphone__about">•13.72 cm (5.4 inch) Super Retina XDR Display</p>
+                        <p class="iphone__about">•12MP + 12MP | 12MP Front Camera</p>
+                        <p class="iphone__about">•A14 Bionic Chip with Next Generation Neural Engine Processor</p>
+                        <p class="iphone__about">•Ceramic Shield</p>
+                        <p class="iphone__about">•IP68 Water Resistance</p>
+                        <p class="iphone__about">•All Screen OLED Display</p>
+                        <p class="iphone__about">•The shipment for this product will begin from 14th November 2020</p>
+                        <div class="row mt-5 catalog__btns">
+                            <button class="btn all-btn me-5 ms-3 catalog__btn shadow-none"><a href="#!" class="fal"><i class="fal fa-shopping-cart"></i></a>
+                              cart</button>
+                            <button class="btn all-btn shadow-none">buy now</button>
+                        </div>
+                    </div>
+                    </div></div>
                   </div>
-                  </div>
-                 
+                </div>
               </div>
+            </div>
           </section>
+
+
+
           <section class="vr">
             <div class="container">
                 <div class="row">
@@ -144,7 +202,7 @@
                   <div class="col-xl-6 vr__card d-flex flex-column align-items-center">
                     <h2 class="title vr__title">Plastation VR</h2>
                     <p class="vr__txt ms-auto">Over 500 games and experiences and counting. See them all</p>
-                    <button class="btn all-btn">learn more</button>
+                    <button class="btn all-btn shadow-none">learn more</button>
                   </div>
                 </div>
               </div>
@@ -156,9 +214,9 @@
       <footer class="footer">
         <nav class="navbar navbar-light">
           <div class="container d-flex align-items-center justify-content-evenly footer__container">
-            <a class="navbar-brand"><img src="img/svg/For dark.svg" alt=""></a>
+             <a href="#!"><img src="img/svg/For dark.svg" alt=""></a>
             <form class="d-flex input__form">
-              <input class="form-control footer__input shadow-none" type="search" placeholder="Subscribe to Newslatter" aria-label="Search">
+              <input class="form-control footer__input shadow-none" type="search" aria-label="Search">
               <button class="btn footer__btn shadow-none" type="submit">Sing up</button>
             </form>
             <div class="footer__icons d-flex">
