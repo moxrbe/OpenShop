@@ -127,7 +127,7 @@ h1,h2,h3,h4,h5,h6, p {
     position: relative;
 }
 
-.fal{
+.nav__icon{
     color: #fff;
 }
 
@@ -812,7 +812,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .iphone__card-1.active::before {
-    content: url(../img/Iphone/iphone-1_100%\ \(2\).png);
+    content: url(../img/Iphone/iphone1-100.png);
     position: absolute;
 }
 
@@ -821,7 +821,7 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .iphone__card-2.active::before {
-    content: url(../img/Iphone/iphone_100%.png);
+    content: url(../img/Iphone/iphone2-100.png);
     position: absolute;
 }
 
@@ -830,15 +830,18 @@ h1,h2,h3,h4,h5,h6, p {
 }
 
 .iphone__card-3.active::before {
-    content: url(../img/Iphone/iphone-3_100%.png);
+    content: url(../img/Iphone/iphone3-100.png);
     position: absolute;
 }
 
+
 .shop__icon{
-
-    color: var(--icon) !important;
-
+    color: var(--link) !important ;
 }
+
+
+
+
 
 /* new iphone 2 */
 
