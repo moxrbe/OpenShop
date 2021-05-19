@@ -469,10 +469,12 @@ h1,h2,h3,h4,h5,h6, p {
     margin-bottom: 10px;
 }
 
-
 .cellphone__card:hover{
-    border: 1px #3e3e3e solid;
+    border: 1px #313131 solid;
+    transform: scale(1.1);
 }
+
+
 
 .cellphone__card:hover .cellphone__btn{
     opacity: 1;
